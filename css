@@ -1,0 +1,337 @@
+body{
+  
+   background-color: rgba(228, 218, 201, 0.658);
+   font-family: 'Gideon Roman', cursive;
+}
+
+.header{
+    position: relative;
+    height: 80px;
+    width: 100%;
+    background: rgba(126, 4, 126, 0.822);
+    /*background-color: purple;/*rgb(81, 151, 74);*/
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px 4px rgba(128, 128, 128, 0.411);
+    
+    
+}
+
+.h1{
+    font-family: 'Gideon Roman', cursive;
+    font-size: 50px;
+    padding-top: 15px;;
+    text-align: center;
+    color: white;
+    text-shadow: 30px 30px 30px rgba(255, 255, 255, 0.212);
+   
+}
+
+.box1{
+    position: absolute;
+    margin-top: 50px ;
+    margin-left: 30px;
+    height: 450px;
+    width: 700px;
+    /*background-color: rgb(81, 151, 74);*/
+    border-radius: 30px;
+    
+}
+
+
+.img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px 2px rgba(128, 128, 128, 0.233);
+}
+
+
+
+.box_liste{
+
+    position: absolute;
+    margin-top: 50px ;
+    margin-left: 400px;
+    height: 430px;
+    width: 330px;
+    background-color: white;
+    border-radius: 30px;
+    display: block;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-left: 30px;
+    font-family: 'Gideon Roman', cursive;
+    box-shadow: 4px 4px 4px 4px rgba(128, 128, 128, 0.411);
+    overflow:scroll;
+
+}
+
+input#note1{
+    border-radius: 7px;
+    padding-left: 15px;
+    box-shadow: 2px 2px 2px 2px rgba(128, 128, 128, 0.411);
+    font-size: 17px;
+}
+
+button#create_button{
+    border-radius: 4px;
+    background-color: purple;
+    color: white;
+    font-weight: bold;
+    box-shadow: 3px 3px 3px 3px rgba(128, 128, 128, 0.411);
+    font-size: 15px;
+}
+
+li#list{
+    text-align: start;
+    font-size: 20px;
+    
+}
+
+ul {
+    list-style-type:none;
+}
+
+
+.timer_container{
+    height: 150px;
+    width: 700px;
+    margin-left: 790px;
+    margin-top: 50px;
+    font-family: sans-serif;
+    background-color: white;
+    border-radius: 150px;
+    position: absolute;
+    box-shadow: 2px 2px 2px 2px rgba(128, 128, 128, 0.411);
+    
+}
+
+.sıfır{
+    position: absolute;
+    margin-left: 830px;
+    margin-top: 50px;
+    height: 150px;
+    width: 450px;
+    border-radius: 150px;
+    background-color: transparent;
+    
+    font-size: 125px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px  rgba(88, 81, 81, 0.39);
+    font-family: serif;
+}
+
+
+.timer__part{
+    font-size: 110px;
+    font-weight: bold;
+    display: inline-block;
+    padding-top: 15px;
+    padding-left: 150px;
+    position: absolute;
+    
+}
+
+
+
+.timer__button_start{
+    width: 60px;
+    height: 60px;
+    margin-left: 1230px;
+    margin-top: 95px;
+    border-radius: 80px;
+    border-color: grey;
+    color: white;
+    background-color: purple;
+    position: absolute;
+    box-shadow: 4px 4px 4px rgba(128, 128, 128, 0.411);
+}
+.timer__button_start:hover{
+    background-color: rgba(128, 0, 128, 0.699);
+}
+
+
+
+.timer__button_stop{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    margin-top:95px;
+    margin-left: 1300px;
+    border-radius: 80px;
+    border-color: grey;
+    color: white;
+    background-color: purple;
+    box-shadow: 4px 4px 4px rgba(128, 128, 128, 0.411);
+}
+
+.timer__button_stop:hover{
+    background-color: rgba(128, 0, 128, 0.699);
+}
+
+
+
+.timer__button_ref{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    margin-top:95px;
+    margin-left: 1370px;
+    border-radius: 80px;
+    border-color: grey;
+    color: white;
+    background-color: purple;
+    box-shadow: 4px 4px 4px rgba(128, 128, 128, 0.411);
+}
+
+.timer__button_ref:hover{
+    background-color: rgba(128, 0, 128, 0.699);
+}
+
+
+
+
+.alt_box{
+    height: 280px;
+    width: 300px;
+    margin-left: 850px;
+    margin-top: 220px;
+    font-family: sans-serif;
+    background-color: white;
+    border-radius: 30px;
+    position: absolute;
+    
+}
+
+
+
+
+
+
+.add_new_task{
+    height: 40px;
+    width: 300px;
+    font-size: 25px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(128, 0, 128);
+    text-align: center;
+    font-size: 30px;
+    padding-top: 5px;
+    font-weight: 500;
+    
+}
+
+.add_new_task:hover{
+    background-color: rgba(128, 0, 128, 0.37);
+}
+
+
+
+.kutu{
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    background: rgba(128, 0, 128, 0.192);
+    color:white;
+    margin-top: 5px;
+    border-radius: 10px;
+    
+    
+}
+
+
+.mini{
+    background: rgba(128, 0, 128, 0.062);
+    border: 3px;
+    border-color: black;
+    border-radius: 10px;
+    width: 280px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow:auto ;
+    
+    
+}
+
+
+.inside_input{
+    height:110px;
+    width: 270px;
+    margin-top: 10px;
+    margin-left: 0px;
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-top: 15px;
+    
+    
+    
+}
+
+.inside_save{
+    height:30px;
+    width: 70px;
+    margin-top: 0px;
+    margin-left: 0px;
+    background-color: purple;
+    color: white;
+    border-radius: 15px;
+    display: inline;
+    
+}
+
+.inside_save:hover{
+    background-color: rgba(128, 0, 128, 0.699);
+}
+
+
+.inside_close{
+    height:30px;
+    width: 70px;
+    margin-top: 0px;
+    margin-left: 10px;
+    background-color: purple; /*rgb(94, 211, 195);*/
+    color: white;
+    border-radius: 15px;
+    
+    
+    
+}
+
+
+.inside_close:hover{
+    background-color: rgba(128, 0, 128, 0.699);
+}
+
+.parag{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.parag2{
+    text-decoration: line-through;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.delete_button{
+    display: block;
+    height: 23px;
+    width: 53px;
+    margin-left: 220px;
+    margin-bottom: 10px;
+    background-color: rgba(128, 0, 128, 0.568);
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+.delete_button:hover{
+    background-color: purple;
+}
+
