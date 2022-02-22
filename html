@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/promodo.css">
+    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Gideon+Roman&family=Kanit:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+
+    <!--HEADER - PROMODO TRACKER-->
+    <div class="header"><h1 class="h1">PROMODO TRACKER</h1></div>
+
+    <!--BIG BOX1 + FIRST IMAGE-->
+    <div class="box1"><img class= "img" src="photo/2.jpg" alt=""></div>
+
+
+    <!--ADD TASK DIV - WHITE -->
+    <div class="box_liste" id="beyaz_box" >
+ 
+
+        <div class="add_new_task"> 
+            <span class="material-icons">add_task</span> <span>Add Task</span> </div>
+        <div id="div" class="kutu">
+            <textarea id="inside_input" placeholder="Write your task..." class="inside_input"></textarea>
+            <button id="inside_save" class="inside_save" onclick="save()"> Save</button>
+        </div>
+    </div>
+    
+
+
+    <!--BIG-BOX 2-->
+    <div class="box1", style="margin-left: 790px;"></div>
+
+    <!--TIMER KUTUSU BEYAZ-->
+    <div class="timer_container"></div>
+    
+    <!--TIMER SAYACI 25:00-->
+    <div class="sıfır" >   
+        <p style="margin-top:0px;" id="countdown"> 25:00</p> 
+       <!--<span class="timer__part timer__part--minutes">00</span>
+        <span class="timer__part">:</span>
+        <span class="timer__part timer__part--seconds">00</span>--> 
+    </div>
+ 
+    
+
+
+    
+    <!--START BUTTON-->
+    
+        <button type="button"  id="start"  class="timer__button_start" onclick="start()">
+            <span class="material-icons" id="play_arrow">play_arrow</span>
+           
+        </button>
+
+        
+
+   
+    <!--STOP BUTTON-->
+    
+        <button type="button" id="start"  class="timer__button_stop" onclick="stop()">
+            <span class="material-icons" id="pause" >pause</span>
+            
+        </button>
+   
+    
+
+    <!--REFRESH BUTTON-->
+    
+        <button type="button" id="start"  class="timer__button_ref" onclick="ref()">
+            <span class="material-icons" id="pause" >restart_alt</span>
+            
+        </button>
+        
+    
+
+   
+    <!--YOUTUBE BOX-->
+
+    <div class="alt_box" style="background-color: white; " >
+        <iframe width="300" height="280" style=" border-radius: 30px; font-size: 20px;" src="https://youtube.com/embed/8GFi6Knz6gc">
+        </iframe>
+    </div>
+
+    
+
+    <!--BOTTOM IMAGE-->
+
+    <div class="alt_box", style="margin-left: 1180px; width: 240px; box-shadow: 4px 4px 4px 4px rgba(128, 128, 128, 0.411);"><img class="img" src="photo/3.jpg" alt="">
+        
+    </div>
+    
+
+
+
+
+
+    <!--JS FILE ADD-->
+    <script src="js/promodo.js"></script>
+    <script src="js/timer.js"></script>
+    
+</body>
+</html>
